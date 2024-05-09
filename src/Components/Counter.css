@@ -1,0 +1,25 @@
+
+
+
+.container{
+    margin: auto;
+    width: 250px ;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+   
+}
+
+.btns{
+    margin-bottom: 10px;
+}
+
+.increment{
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.decrement{
+    margin-right: 5px;
+    font-size: 12px;
+}
