@@ -2,24 +2,47 @@
 
 
 .container{
+    border: 2px ;
+    width: 300px;
+    height: 200px;
     margin: auto;
-    width: 250px ;
-    border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 10px;
-   
+    align-items: center;
+    background-color:cadetblue;
+    
 }
 
-.btns{
-    margin-bottom: 10px;
+.heading{
+    text-align: center;
+    color: white;
+}
+
+.counter{
+
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 75px;
+    padding: 8px;
+}
+
+.btns button{
+    
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 50px;
+    border-radius: 12px;
 }
 
 .increment{
-    margin-right: 5px;
-    font-size: 12px;
+    background-color: green;
 }
 
 .decrement{
-    margin-right: 5px;
-    font-size: 12px;
+    background-color: red;
 }
